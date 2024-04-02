@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             //O OnClick é chamado quando da o clique do botao
             public void onClick(View v) {
                 //Recebe o texto que o usuario digitou (obtem campo de texto)
-                EditText etDigiteAqui= findViewById(R.id.tvTexto);
+                EditText etDigiteAqui= findViewById(R.id.etDigiteAqui);
                 //Transforma em String
                 String textoDigitado = etDigiteAqui.getText().toString();
                 //Cria uma intencao que navega de uma tela para outra
